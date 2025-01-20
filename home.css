@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 100px;
+    background-image: url("pictures/img.jpg");
+    background-repeat: repeat-x;
+
+}
+
+h1{
+    text-decoration-line: underline;
+    color: rgb(246, 9, 9);
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    background-color:lemonchiffon;
+}
+
+#offline{
+    color: red;
+    background-color:yellow;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: royalblue;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration:overline;
+    padding: 25px;
+    text-align: center;
+    float:left;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav a:hover{
+    color: tomato;
+}
+
+nav a:focus{
+    color:chartreuse
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+#intro{
+    font-style: oblique;
+    color: crimson;
+    text-decoration: solid;
+}
+
+#JL{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    text-shadow: cadetblue;
+}
+
+#bands{
+    color: rgb(145, 18, 235);
+}
+#ATE{
+    text-align: left;
+    font-family: monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+#event{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    color:firebrick;
+}
+
+
+#note{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+#con{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+#conclusion{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+#hash{
+    font-weight: inherit;
+}
+
+footer{
+    background-color: wheat;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    nav a{
+        padding:5px;
+        font-size: small;
+        font-weight: bold;
+        
+    }
+
+    nav a:focus{
+        color:chartreuse
+    }
+
+    nav a:hover{
+        color: tomato;
+    }
+
+    footer{
+        background-color: wheat;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-size: 6px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:800px){
+    nav a{
+        padding:10px;
+        font-size: medium;
+        font-weight: bold;
+        
+    }
+
+    nav a:focus{
+        color:chartreuse
+    }
+
+    nav a:hover{
+        color: tomato;
+    }
+
+    footer{
+        background-color: wheat;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-size: 9px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+}
